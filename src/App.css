@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #54473F;
+  --secondary-color: #9A7E6F;
+  --bgcolor: #E9EED9;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+li {
+  list-style: none;
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: none;
+  border: 0.6px solid #ccc;
+  border-radius: 5px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
